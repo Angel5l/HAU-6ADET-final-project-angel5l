@@ -33,8 +33,9 @@ this paragraph with them:
 ```markdown
 | Home | Detail | Add |
 | --- | --- | --- |
-```
 | ![Home](docs/assets/screen-home.jpg) | ![cardTinder](docs/assets/screen-cardTinder.jpg) | ![cardCarousel](docs/assets/screen-cardCarousel.jpg) |
+```
+
 
 A repo without screenshots reads as abandoned, whatever the code says.
 
