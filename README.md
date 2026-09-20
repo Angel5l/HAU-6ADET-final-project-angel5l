@@ -44,7 +44,7 @@ Three to five bullets. What can a user actually do?
 
 - Swipe Cards to Select
 - Flip and Unflip Cards
-- ...
+- View Cards Expounded Details
 
 ## Built with
 
