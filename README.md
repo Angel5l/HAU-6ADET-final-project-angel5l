@@ -6,14 +6,17 @@
   New here? Read START-HERE.md first. Delete this comment when you are done.
 -->
 
-# App Name
+# tarotangel
 
-> One sentence: what this app does, and who it is for.
+## What it is
+
+It is a tarot reader with a swipeable card selector and own designed cards. 
+
 
 **Live demo:** https://YOURUSERNAME.github.io/YOUR-REPO/ <!-- GitHub Pages is set up already; replace if you host elsewhere -->
 **Demo video:** `docs/demo.mp4` (link it here once it exists)
 **Course:** Applications Development and Emerging Technologies (6ADET), Holy Angel University
-**Author:** Your Name
+**Author:** Zapanta, Angel (Angel5l)
 
 This repository lives in the author's own GitHub account and is public on
 purpose. There is no `student.json` here and there should not be one: see
@@ -30,7 +33,7 @@ this paragraph with them:
 ```markdown
 | Home | Detail | Add |
 | --- | --- | --- |
-| ![Home](docs/assets/screen-home.png) | ![Detail](docs/assets/screen-detail.png) | ![Add](docs/assets/screen-add.png) |
+| ![Home](docs/assets/screen-home.jpg) | ![cardTinder](docs/assets/screen-cardTinder.png) | ![cardCarousel](docs/assets/screen-cardCarousel.png) |
 ```
 
 A repo without screenshots reads as abandoned, whatever the code says.
@@ -39,8 +42,8 @@ A repo without screenshots reads as abandoned, whatever the code says.
 
 Three to five bullets. What can a user actually do?
 
-- ...
-- ...
+- Swipe Cards to Select
+- Flip and Unflip Cards
 - ...
 
 ## Built with
@@ -51,6 +54,8 @@ Three to five bullets. What can a user actually do?
 | State | `setState` / provider / riverpod (say which) |
 | Storage | shared_preferences / Hive / Drift / Firebase / Supabase / other |
 | Other packages | list the ones that matter, with a word on why |
+
+| flutter_card_swiper: ^7.2.0 | It is for the CardSwiper function to work properly within CardTinder |
 
 ## Running it yourself
 
@@ -98,21 +103,26 @@ Required section. Two or three honest sentences:
 
 ## Status and what is next
 
-Be honest. What works, what is half done, what you would build next. An honest
-"known issues" section reads better than a claim the reader disproves in thirty
-seconds.
+What works:
+cardTinder
+cardCarousel
+
+What is half done:
+tarotDetail
+
+What will be done next:
+tarotDetail
+tarotDetail_json
 
 ## Credits
 
 - Packages: see `pubspec.yaml`
-- Assets, icons, 3D models, sounds: name the author and the licence for each
-- People who helped, and how
+ricardodalarme.com | flutter_card_swiper: ^7.2.0
+flutter.dev | flutter_svg 
 
 ## AI use
 
-If you used AI tools while building this, say so in a sentence or two and say
-where. Honest disclosure is the standard in this course and increasingly outside
-it.
+AI was used heavily within the debugging of cardCarousel since the cards were not flipping and showcasing its information. 
 
 ## Licence
 
